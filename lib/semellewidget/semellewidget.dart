@@ -245,7 +245,8 @@ class _SemelleWidgetState extends State<SemelleWidget> {
         children: [
           SizedBox(
               width: 200.0,
-              child: ElevatedButton(
+              child: ElevatedButton.icon(
+                  icon: const Icon(Icons.calculate),
                   onPressed: () {
                     if (_mainKey.currentState!.validate() &&
                         _key.currentState!.validate()) {
@@ -285,7 +286,7 @@ class _SemelleWidgetState extends State<SemelleWidget> {
                       });
                     }
                   },
-                  child: const Text('calcul'))),
+                  label: const Text('calcul'))),
           ElevatedButton.icon(
               onPressed: () {
                 Navigator.pop(context);

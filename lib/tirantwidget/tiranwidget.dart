@@ -293,8 +293,9 @@ class _TiranWidgetState extends State<TiranWidget> {
           children: [
             SizedBox(
               width: 200,
-              child: ElevatedButton(
-                child: const Text('Calcul'),
+              child: ElevatedButton.icon(
+                icon: const Icon(Icons.calculate),
+                label: const Text('Calcul'),
                 onPressed: () {
                   if (_key.currentState!.validate()) {
                     setState(() {

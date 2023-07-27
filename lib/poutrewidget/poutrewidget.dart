@@ -287,8 +287,9 @@ class _PoutreWidgetState extends State<PoutreWidget> {
         children: [
           SizedBox(
             width: 200.0,
-            child: ElevatedButton(
-              child: const Text('calcul'),
+            child: ElevatedButton.icon(
+              icon: const Icon(Icons.calculate),
+              label: const Text('calcul'),
               onPressed: () {
                 if (_key.currentState!.validate()) {
                   setState(() {

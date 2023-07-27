@@ -337,7 +337,8 @@ class _PoteauWidgetState extends State<PoteauWidget> {
         children: [
           SizedBox(
             width: 200.0,
-            child: ElevatedButton(
+            child: ElevatedButton.icon(
+                icon: const Icon(Icons.calculate),
                 onPressed: () {
                   if (_key.currentState!.validate()) {
                     if (formeCourant == SectionForme.circulaire) {
@@ -377,7 +378,7 @@ class _PoteauWidgetState extends State<PoteauWidget> {
                     });
                   }
                 },
-                child: const Text('calcul')),
+                label: const Text('calcul')),
           ),
           ElevatedButton.icon(
               onPressed: () {
