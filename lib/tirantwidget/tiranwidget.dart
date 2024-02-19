@@ -345,6 +345,6 @@ class _TiranWidgetState extends State<TiranWidget> {
                 label: const Text('retour'))
           ],
         ),
-        statutBar: const Text('statut bar'),
+        statutBar: const Text('copyrigth2024.@philosophe14@hotmail.com'),
       );
 }

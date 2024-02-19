@@ -48,7 +48,7 @@ class MyHomePage extends StatelessWidget {
                 Navigator.of(context).push(MaterialPageRoute(
                     builder: (context) => const Scaffold(body: TiranWidget())));
               },
-              child: const Center(child: Text('Traction simple')),
+              child: const Center(child: Text('traction simple')),
             ),
             Hero(
               transitionOnUserGestures: true,
@@ -60,7 +60,7 @@ class MyHomePage extends StatelessWidget {
                       builder: (context) =>
                           const Scaffold(body: PoteauWidget())));
                 },
-                child: const Center(child: Text('Compression')),
+                child: const Center(child: Text('compression')),
               ),
             ),
             Carte(
@@ -70,7 +70,7 @@ class MyHomePage extends StatelessWidget {
                     builder: (context) =>
                         const Scaffold(body: PoutreWidget())));
               },
-              child: const Center(child: Text('Flexion simple')),
+              child: const Center(child: Text('flexion simple')),
             ),
             Carte(
               color: Theme.of(context).primaryColor,
@@ -79,7 +79,7 @@ class MyHomePage extends StatelessWidget {
                     builder: (context) =>
                         const Scaffold(body: SemelleWidget())));
               },
-              child: const Center(child: Text('Semelle')),
+              child: const Center(child: Text('semelle')),
             ),
             Carte(
               color: Theme.of(context).primaryColor,
