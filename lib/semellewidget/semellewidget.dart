@@ -31,7 +31,8 @@ class _SemelleWidgetState extends State<SemelleWidget> {
   late String resultats = 'Aucun resultat';
   @override
   Widget build(BuildContext context) => Dispose(
-      statutBar: const Text('copyrigth2024.@philosophe14@hotmail.com'),
+      statutBar:
+          const Center(child: Text('copyrigth2024.@philosophe14@hotmail.com')),
       mainContent: Padding(
         padding: const EdgeInsetsDirectional.symmetric(
             vertical: 20.0, horizontal: 25.0),

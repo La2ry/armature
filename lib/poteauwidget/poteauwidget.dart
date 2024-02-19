@@ -40,7 +40,8 @@ class _PoteauWidgetState extends State<PoteauWidget> {
   late String resultats = 'Aucun resulta';
   @override
   Widget build(BuildContext context) => Dispose(
-      statutBar: const Text('copyrigth2024.@philosophe14@hotmail.com'),
+      statutBar:
+          const Center(child: Text('copyrigth2024.@philosophe14@hotmail.com')),
       mainContent: Padding(
         padding: const EdgeInsets.symmetric(vertical: 20.0, horizontal: 25.0),
         child: SingleChildScrollView(
