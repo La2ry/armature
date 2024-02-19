@@ -66,13 +66,15 @@ class Dispose extends StatelessWidget {
             ],
           ),
         ),
-        Container(
-          height: 0.05 * screenHeight,
-          width: screenWidth,
-          decoration: BoxDecoration(
-              color: Theme.of(context).primaryColor,
-              border: const Border(top: BorderSide())),
-          child: statutBar,
+        Center(
+          child: Container(
+            height: 0.05 * screenHeight,
+            width: screenWidth,
+            decoration: BoxDecoration(
+                color: Theme.of(context).primaryColor,
+                border: const Border(top: BorderSide())),
+            child: statutBar,
+          ),
         )
       ],
     );
